@@ -51,6 +51,7 @@ a{
     width:190px;
     height:190px;
     margin-top:15vh;
+    box-shadow: 0px 1px 6px 6px purple;
 }
 h1{
     color:purple;
@@ -59,7 +60,8 @@ h1{
 }
 
 p{
-    margin-top:02vh;
+    margin-top:03vh;
+    font-size:14px;
 } 
 
 #parte2{
@@ -67,7 +69,6 @@ p{
     height:60vh;
     text-align:center;
     position:relative; 
-    border-top:3px solid purple;
 }
 
 h2{
@@ -75,7 +76,7 @@ h2{
     font-size:6vh;
     text-align:center;
     margin-top:5vh;
-    margin-bottom:5vw
+    margin-bottom:5vw;
 
 } 
 img{
@@ -84,7 +85,45 @@ img{
     border-radius:100px;
 }
 
-.linguagens{
+#linguagens{
+    width:100vw;
+    height: 20vh;
     position:relative;
     display:inline-block;
+
 }
+
+#parte3{
+    width:100vw;
+    height:60vh;
+    margin-top:3vh;
+    text-align:center;
+    position:relative; 
+    display:inline-block;
+    border-top:3px solid purple;
+}
+
+.projects{
+    width:28vw;
+    height:35vh;
+    margin-top: 3vh;
+    border-radius:5vh;
+    display:inline-block;
+    border: 2px solid purple;
+    box-shadow: 3px 3px 3px purple;
+}
+
+.projects::hover{
+    width:30vw;
+    height:34vh;
+    margin-top: 3vh;
+    border-radius:5vh;
+    display:inline-block;
+    border: 2px solid purple;
+    box-shadow: 3px 3px 3px purple;
+}
+
+h3{
+    margin-top:5vh;
+}
+
